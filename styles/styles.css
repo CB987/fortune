@@ -6,6 +6,10 @@ body {
 
 .fortune-button {
     margin-top: 100px;
+    margin-right: 50px;
+}
+.previous {
+    margin-right: 50px;
 }
 
 .headings {
