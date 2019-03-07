@@ -5,14 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fortune</title>
+    <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
-    <button data-fortune-button>Get your fortune</button>
+    <div class="headings">
+        <h1><b>Wisdom Generator</b></h1>
+        <h2>Proven helpful 1.3% of the time</h2>
 
-    <h2> 
+    </div>
 
+    <div class="picture-frame hidden">
+        <img src="images/dark-daylight-eerie-1165982.jpg" alt="road with trees">
+    </div>
+
+
+    <button class="fortune-button" data-fortune-button>Get your fortune</button>
+
+    <h2 data-fortune-output class="fortune"> 
+        Here is your wisdom
     </h2>
 
     <script src="scripts/scripts.js"></script>

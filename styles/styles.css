@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-image: url('../images/adventure.jpg');
+    color: white;
+}
+
+.fortune-button {
+    margin-top: 100px;
+}
+
+.headings {
+    font-family: 'Srisakdi', cursive;
+}
+
+.picture-frame {
+    width: 25%;
+    margin: 0 auto;
+
+}
+.picture-frame.hidden {
+    display: none;
+}
+
+.picture-frame img {
+    width: 100%;
+}
+
+.fortune {
+    font-size: 50px;
+}
