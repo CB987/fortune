@@ -5,6 +5,7 @@ const previousFortune = document.querySelector('[data-previous]');
 
 let fortune = ["Truth has no special time of its own.  Its hour is now -- always.\n\t\t-- Albert Schweitzer", "With listening comes wisdom, with speaking repentance.", "The older a man gets, the farther he had to walk to school as a boy.", "There is nothing stranger in a strange land than the stranger who comes\nto visit.", "Look!  Before our very eyes, the future is becoming the past.", "To err is humor."];
 
+// keeps track of what fortune user is on
 let i = 0;
 
 function getFortune() {
@@ -38,6 +39,7 @@ function randomFortune() {
 
 }
 
+// event listeners
 fortuneButton.addEventListener('click', getFortune);
 previousFortune.addEventListener('click', showPreviousFortune);
 randomButton.addEventListener('click', randomFortune);
