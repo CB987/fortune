@@ -44,3 +44,4 @@ fortuneButton.addEventListener('click', getFortune);
 previousFortune.addEventListener('click', showPreviousFortune);
 randomButton.addEventListener('click', randomFortune);
 
+
